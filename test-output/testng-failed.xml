@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.comcast.organisationtest.QuoteModuleTNG">
+      <class name="com.vtiger.comcast.organisationtest.seleLondonChallengeTest">
         <methods>
           <include name="configAS"/>
+          <include name="test"/>
           <include name="configBS"/>
           <include name="configAM"/>
           <include name="configBM"/>
-          <include name="quote"/>
         </methods>
-      </class> <!-- com.vtiger.comcast.organisationtest.QuoteModuleTNG -->
+      </class> <!-- com.vtiger.comcast.organisationtest.seleLondonChallengeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

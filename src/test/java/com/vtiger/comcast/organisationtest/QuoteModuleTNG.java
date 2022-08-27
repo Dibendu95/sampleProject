@@ -4,7 +4,7 @@ import org.openqa.selenium.Alert;
 import org.testng.annotations.Test;
 import com.crm.vtiger.genericutility.BaseClass;
 import com.vtiger.comcast.pomrepositoryLib.QuotesBusinessPage;
-public class QuoteModuleTNGTest extends BaseClass{
+public class QuoteModuleTNG extends BaseClass{
 	
 	@Test(groups ="smokeTest")
 	public void quote() throws Throwable {

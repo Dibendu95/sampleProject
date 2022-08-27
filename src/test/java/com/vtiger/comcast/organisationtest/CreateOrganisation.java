@@ -8,7 +8,7 @@ import com.vtiger.comcast.pomrepositoryLib.Organizations;
 
 import junit.framework.Assert;
 		
-		public class CreateOrganisationTest extends BaseClass{
+		public class CreateOrganisation extends BaseClass{
 			//organisation should be added in oppurtunities,quotes,sales order
 		@Test(groups ="smokeTest")
 		public void createOrgTest() throws Throwable {
