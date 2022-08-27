@@ -30,7 +30,7 @@ public class seleLondonChallengeTest  {
 	
 for(WebElement array:element1) {
 	
-	System.out.println(array.getText());
+	System.out.println(array.getText());//edited
 }
 
     }
